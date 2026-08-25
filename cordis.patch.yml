@@ -1,0 +1,11 @@
+# dsh-clash-proxy bundle patch.
+#
+# One dual-face row: the node half runs the rule proxy (subscription,
+# rules, transports, scoped env injection) and the `dsh.client` browser half
+# (see package.json) registers the management page into `settings.section`.
+# The row publishes no cross-session service, so it needs no isolate realm.
+# The timer service backs the auto-update and latency-test loops.
+- insert:
+    - id: clash-proxy
+      name: 'dsh-clash-proxy'
+      inject: [timer]

@@ -1,0 +1,13 @@
+# Isolated-instance test overlay for the v2 proxy: point the plugin
+# at the synthetic subscription server.
+- id: clash-proxy
+  config:
+    enabled: true
+    subscriptionUrl: http://127.0.0.1:17777/sub.yaml
+    autoUpdateHours: 0
+    groupType: select
+    latencyTestUrl: http://www.gstatic.com/generate_204
+    latencyTimeoutMs: 3000
+    noProxy: localhost,127.0.0.1,::1
+    extraRules: []
+    excludeRules: []
