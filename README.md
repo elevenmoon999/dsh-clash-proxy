@@ -1,6 +1,6 @@
 # dsh-clash-proxy
 
-<h1 align="center">⚠️ This plugin is entirely AI-generated ⚠️</h1>
+**Smart routing · Self-contained · Easy to start** — a self-contained, zero-config rule-splitting proxy plugin.
 
 A **self-contained rule-splitting proxy** plugin for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH). No external Clash/mihomo client: a built-in rule engine plus your subscription nodes give the Harness process tree smooth access to both domestic (direct) and international (proxied) networks — while the rest of your system is untouched.
 

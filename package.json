@@ -1,7 +1,7 @@
 {
   "name": "dsh-clash-proxy",
   "version": "0.2.0",
-  "description": "Self-contained rule-splitting proxy plugin for DeepSeek Harness: subscription-based routing (domestic direct / international via ss/trojan/vless/vmess/hysteria2/socks5/http nodes) confined to the harness process tree, with a native Web GUI management page — no external Clash/mihomo dependency",
+  "description": "Smart routing (智能分流), self-contained and zero-config rule-splitting proxy plugin for DeepSeek Harness: subscription-based routing (domestic direct / international via ss/trojan/vless/vmess/hysteria2/socks5/http nodes) confined to the harness process tree, with a native Web GUI management page — no external Clash/mihomo dependency",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,7 +27,9 @@
     "deepseek-harness",
     "proxy",
     "clash",
-    "rule-splitting"
+    "rule-splitting",
+    "smart-routing",
+    "智能分流"
   ],
   "publishConfig": {
     "access": "public"

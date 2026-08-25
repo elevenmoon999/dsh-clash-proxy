@@ -1,6 +1,6 @@
 # dsh-clash-proxy
 
-<h1 align="center">⚠️ 本插件完全由 AI 生成 ⚠️</h1>
+**智能分流 · 自包含 · 上手简单** —— 一个自包含、零配置的智能分流代理插件。
 
 给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）使用的**智能分流代理插件**：**完全自包含**——不依赖外部 Clash/mihomo 客户端，仅靠内置规则引擎 + 订阅节点，让 Harness 进程环境内国内流量直连、国外流量走订阅节点，两边都流畅；系统其他程序完全不受影响。
 
